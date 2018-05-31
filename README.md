@@ -23,13 +23,13 @@ Tired of typing in your password constantly when pushing to Git? Start using SSH
 
 2. You’ll be asked to give it a name and a password
 
-    1. The default name is `id_rsa` - stick with this for now
+    * The default name is `id_rsa` - stick with this for now
 
-    2. `id_rsa` and `id_rsa.pub` will be saved to `<your home folder>/.ssh`
+    * `id_rsa` and `id_rsa.pub` will be saved to `<your home folder>/.ssh`
 
-    3. the . means the folder is invisible! You can list invisible files in terminal by writing `ls -a`
+    * the . means the folder is invisible! You can list invisible files in terminal by writing `ls -a`
 
-    4. `id_rsa` is your private key! **Keep it secret!**
+    * `id_rsa` is your private key! **Keep it secret!**
 
 3. Type `pbcopy < ~/.ssh/id_rsa.pub` to copy your public key to your clipboard
 
@@ -39,7 +39,7 @@ Tired of typing in your password constantly when pushing to Git? Start using SSH
 
 6. In **Terminal**, type `ssh-add -k ~/.ssh/id_rsa` and type in your password
 
-    5. You’ll need to do this every time you open **Terminal** (for now)
+    * You’ll need to do this every time you open **Terminal** (for now)
 
 Now you can clone git repos using your SSH key!
 
