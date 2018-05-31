@@ -123,10 +123,10 @@ While [GitKraken](https://www.gitkraken.com) is incredibly nice, **you should st
 
 ## VS Code
 
-* (Settings Sync)[https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync] - Move between computers and operating systems frequently? Take your configuration with you!
+* [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - Move between computers and operating systems frequently? Take your configuration with you!
 
-* (VS Live Share)[https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare] - Pair programming? Use this to launch a collaborative session!
+* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Pair programming? Use this to launch a collaborative session!
 
-* (VS Code Icons)[https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons] - Make it easier to navigate your project directory!
+* [VS Code Icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) - Make it easier to navigate your project directory!
 
-* (Power Mode)[https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons] - the most important extension of all
+* [Power Mode](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) - the most important extension of all
