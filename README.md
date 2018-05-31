@@ -53,11 +53,11 @@ You can write:
 
 To change a repo to use SSH instead of HTTPS, you’ll need to run:
 
-git remote set-url origin git@github.com:*USERNAME*/*REPOSITORY*.git
+`git remote set-url origin git@github.com:*USERNAME*/*REPOSITORY*.git`
 
 To change a repo from using SSH to HTTPS, just write:
 
-git remote set-url origin https://github.com/*USERNAME*/*REPOSITORY*.git
+`git remote set-url origin https://github.com/*USERNAME*/*REPOSITORY*.git`
 
 More info here: [https://help.github.com/articles/changing-a-remote-s-url/](https://help.github.com/articles/changing-a-remote-s-url/)
 
