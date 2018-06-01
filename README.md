@@ -42,23 +42,24 @@ Tired of typing in your password constantly when pushing to Git? Start using SSH
     * You’ll need to do this every time you open **Terminal** (for now)
 
 Now you can clone git repos using your SSH key!
+```
+# Instead of writing
 
-Instead of writing
+git clone https://github.com/chufnagel/productivity-hacks.git
 
-`git clone https://github.com/chufnagel/productivity-hacks.git`
+# You can write:
 
-You can write:
+git clone git@github.com:chufnagel/productivity-hacks.git
 
-`git clone git@github.com:chufnagel/productivity-hacks.git`
+# To change a repo to use SSH instead of HTTPS, you’ll need to run:
 
-To change a repo to use SSH instead of HTTPS, you’ll need to run:
+git remote set-url origin git@github.com:*USERNAME*/*REPOSITORY*.git
 
-`git remote set-url origin git@github.com:*USERNAME*/*REPOSITORY*.git`
+# To change a repo from using SSH to HTTPS, just write:
 
-To change a repo from using SSH to HTTPS, just write:
+git remote set-url origin https://github.com/*USERNAME*/*REPOSITORY*.git
 
-`git remote set-url origin https://github.com/*USERNAME*/*REPOSITORY*.git`
-
+```
 More info here: [https://help.github.com/articles/changing-a-remote-s-url/](https://help.github.com/articles/changing-a-remote-s-url/)
 
 Check out the [fix_github_https_repo.sh](https://gist.github.com/michaelsilver/6aa07e35a31f1f6b2e55) (also included in the repository)
@@ -80,6 +81,8 @@ Tired of writing out git commands? Make an alias!
 Aliases are awesome, but you should still **know how git works** and how to do these things on your own!
 
  ## Example aliases:
+ 
+```sh
 
 alias gcd="git checkout dev”
 
@@ -102,6 +105,8 @@ alias gfo="git fetch origin”
 alias grbi="git rebase -i”
 
 alias gcp="git cherry-pick”
+
+```
 
 ## Other nice git stuff:
 
